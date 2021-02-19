@@ -34,6 +34,9 @@ else if ((month==12 && day>21)||(month==1 && day<22)) {
 else if ((month==1 && day>21)||(month==2 && day<20)) {
     console.log("Kova Burcu")
 }
-else {
+else if ((month==2 && day>19)||(month==9 && day<21)) {
     console.log("Balik Burcu")
+}
+else {
+    console.log("Hatali Giris")
 }
